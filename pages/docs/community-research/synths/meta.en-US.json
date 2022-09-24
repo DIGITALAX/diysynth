@@ -1,5 +1,7 @@
 {
-  "synths": "Synths",
+  "synths": "What Are Synths?",
   "models": "Models",
-  "notebooks": "Notebooks"
+  "notebooks": "Notebooks",
+  "interfaces": "Interfaces",
+  "apis": "APIs"
 }

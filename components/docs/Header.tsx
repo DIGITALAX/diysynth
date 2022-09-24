@@ -1,17 +1,11 @@
 import { useRouter } from 'next/router'
 // eslint-disable-next-line import/no-unresolved
 
-import { LogoType } from '../core'
-
 const TITLE_WITH_TRANSLATIONS: Record<string, string> = {
   'en-US': 'React Hooks for Ethereum',
 }
 
-type Props = {
-  showGitcoinBanner?: boolean
-}
-
-export function Header({ showGitcoinBanner }: Props) {
+export function Header() {
   const { locale, defaultLocale = 'en-US' } = useRouter()
   const resolvedLocale = locale || defaultLocale
   const title = TITLE_WITH_TRANSLATIONS[resolvedLocale]

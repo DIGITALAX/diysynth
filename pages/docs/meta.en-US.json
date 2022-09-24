@@ -1,16 +1,16 @@
 {
   "run-all": "Run All",
+  "diy": "Why DIY?",
+  "synth": "Why Image Synth?",
+  "community-research": "Community Research",
   "contribute": "How to Contribute",
-  "communities": "Communities to Join",
-  "simulacra": "Simulacra",
   "rekt": "Rekt Reading",
+  "simulacra": "Simulacra",
   "issues": "Issues",
   "guides": "Guides",
-  "plugins": "Plugins",
-  "synth": "Why Image Synth?",
-  "follow": "Follow",
   "ecosystem": "Ecosystem",
-  "diy": "Why DIY?",
+  "plugins": "Plugins",
+  "communities": "Communities to Join",
   "contributors": "Contributors",
-  "community-research": "Community Research"
+  "follow": "Follow"
 }

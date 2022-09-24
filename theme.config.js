@@ -31,7 +31,7 @@ export default {
     return FEEDBACK_LINK_WITH_TRANSLATIONS[locale || 'en-US']
   },
   floatTOC: true,
-  footerEditLink: `Edit this page on GitHub`,
+  footerEditLink: `Edit this page`,
   footerText({ locale }) {
     switch (locale) {
       case 'en-US':
@@ -57,9 +57,9 @@ export default {
     const { systemTheme } = useTheme()
     const description =
       meta.description ||
-      'wagmi is a collection of React Hooks containing everything you need to start working with Ethereum. wagmi makes it easy to "Connect Wallet," display ENS and balance information, sign messages, interact with contracts, and much more — all with caching, request deduplication, and persistence.'
+      'DIY SYNTH is a living history for experimentation, adaptation, common edge cases, and uncommon findings from the image synthesis research community. It is an inherently open, massive multiplayer search mechanism.'
     const title_ =
-      title && !title.startsWith('wagmi')
+      title && !title.startsWith('diy')
         ? title + ' – DIY SYNTH'
         : 'DIY SYNTH: The Latent Codex for Image Synthesis Research & Prompt Engineers'
     return (
@@ -77,7 +77,7 @@ export default {
         <meta name="twitter:card" content="summary_large_image" />
 
         {/* Misc */}
-        <meta name="apple-mobile-web-app-title" content="wagmi" />
+        <meta name="apple-mobile-web-app-title" content="DIY SYNTH" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
 

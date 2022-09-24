@@ -16,25 +16,23 @@ html {
   filter: invert(1) brightness(1.8);
 }
 
-body {
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 1) 300px
-    ),
-    fixed 0 0 / 20px 20px radial-gradient(#d1d1d1 1px, transparent 0),
-    fixed 10px 10px / 20px 20px radial-gradient(#d1d1d1 1px, transparent 0);
-}
-
 .dark body {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #111 300px),
-    fixed 0 0 / 20px 20px radial-gradient(#313131 1px, transparent 0),
-    fixed 10px 10px / 20px 20px radial-gradient(#313131 1px, transparent 0);
+  background-color: #111313
 }
 
 .nextra-callout a {
   color: inherit;
 }
+
+.dark  .nextra-container {
+  background-color: #111313
+}
+
+.light  .nextra-container {
+  background-color: #F7F8E8;
+}
+
+
 
 sup a {
   @apply text-current;
@@ -48,3 +46,5 @@ sup a {
 .install [role='tablist'] {
   justify-content: center;
 }
+
+

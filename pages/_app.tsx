@@ -1,4 +1,4 @@
-import { ThemeProvider } from 'degen'
+import { Skeleton, ThemeProvider } from 'degen'
 import type { AppProps } from 'next/app'
 import NextScript from 'next/script'
 import * as React from 'react'
@@ -9,7 +9,6 @@ import 'nextra-theme-docs/style.css'
 // https://github.com/import-js/eslint-plugin-import/issues/1868
 // eslint-disable-next-line import/no-unresolved
 import 'degen/styles'
-import { Providers } from '../components/core'
 import { useFathom } from '../hooks'
 import { encodeBase64 } from '../lib/encode'
 
@@ -47,12 +46,7 @@ function App({ Component, pageProps }: AppProps) {
         src={encodedScript}
         strategy="beforeInteractive"
       />
-
-      <Providers>
-        <ThemeProvider defaultMode={defaultMode}>
           {getLayout(<Component {...pageProps} />)}
-        </ThemeProvider>
-      </Providers>
     </>
   )
 }

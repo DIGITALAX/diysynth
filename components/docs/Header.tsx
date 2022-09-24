@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router'
 // eslint-disable-next-line import/no-unresolved
-import Callout from 'nextra-theme-docs/callout'
 
 import { LogoType } from '../core'
 

@@ -1,10 +1,10 @@
 import { useTheme } from 'next-themes'
 import { useRouter } from 'next/router'
 
-const github = 'https://github.com/wagmi-dev/wagmi'
+const github = 'https://github.com/digitalax/diysynth'
 
 const TITLE_WITH_TRANSLATIONS = {
-  'en-US': 'React Hooks for Ethereum',
+  'en-US': 'The Latent Codex',
 }
 
 const FEEDBACK_LINK_WITH_TRANSLATIONS = {
@@ -60,8 +60,8 @@ export default {
       'wagmi is a collection of React Hooks containing everything you need to start working with Ethereum. wagmi makes it easy to "Connect Wallet," display ENS and balance information, sign messages, interact with contracts, and much more — all with caching, request deduplication, and persistence.'
     const title_ =
       title && !title.startsWith('wagmi')
-        ? title + ' – wagmi'
-        : 'wagmi: React Hooks for Ethereum'
+        ? title + ' – DIY SYNTH'
+        : 'DIY SYNTH: The Latent Codex for Image Synthesis Research & Prompt Engineers'
     return (
       <>
         {/* General */}
@@ -112,7 +112,7 @@ export default {
     const { locale } = useRouter()
     return (
       <>
-        <span className="mr-2 font-extrabold">wagmi</span>
+        <span className="mr-2 font-sourceBold">DIY SYNTH</span>
         <span className="text-gray-600 font-normal hidden md:inline">
           {TITLE_WITH_TRANSLATIONS[locale || 'en-US']}
         </span>
@@ -126,6 +126,7 @@ export default {
   prevLinks: true,
   projectLink: github,
   search: true,
-  titleSuffix: ' – wagmi',
+  font: false,
+  titleSuffix: ' – DIY SYNTH',
   unstable_flexsearch: true,
 }

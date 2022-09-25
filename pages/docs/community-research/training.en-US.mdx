@@ -4,3 +4,13 @@ description: ''
 ---
 
 # Training
+
+The standard bearer for image synthesis today, [`Stable Diffusion`](https://github.com/CompVis/stable-diffusion), is the latest in a recent flurry of releases of latent diffusion models. ELI5-wise, diffusion models are mechanisms that guide progressively "smart" denoising, with prompts.
+
+You can think of them as hallucinating what you prompt them to envision, a bit better with each step (but be careful not to overcook them with too many steps). They assume the random noise they are given as seeds are simply extremely noisy versions of what your prompt describes and try to make their hallucinatory interpretation of it a little less noisy with each pass.
+
+But some visualization methods are better than others. How do latent diffusion models know which patterns correspond to which prompts?
+
+In order to generate new images that match with more coherent expectations, diffusion models base their guided denoising on the data you use to train them.
+
+Here you can find, test, and contribute to a frequently updated collection of training sets, fine-tuning notebooks, and other findings from the image synthesis research community at large.

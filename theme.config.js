@@ -55,6 +55,8 @@ export default {
         <meta property="twitter:site" content="@digitalax_"/>
         <meta name="twitter:creator" content="@digitalax_" />
         <meta name="twitter:image" content="https://diysynth.xyz/card.png" />
+        <meta name="twitter:url" content="https://diysynth.xyz/" />
+
 
 
         {/* Misc */}

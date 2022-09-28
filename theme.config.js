@@ -51,7 +51,7 @@ export default {
         <meta name="og:description" content={description} />
         <meta name="og:title" content={title_} />
         <meta name="og:image" content="https://github.com/DIGITALAX/diysynth/blob/main/public/card.png" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="https://github.com/DIGITALAX/diysynth/blob/main/public/card.png" />
 
         {/* Misc */}
         <meta name="apple-mobile-web-app-title" content="DIY SYNTH" />

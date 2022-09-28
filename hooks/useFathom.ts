@@ -7,7 +7,7 @@ export function useFathom() {
 
   React.useEffect(() => {
     Fathom.load(process.env.NEXT_PUBLIC_FATHOM_ID ?? '', {
-      includedDomains: ['wagmi.sh'],
+      includedDomains: ['diysynth.xyz'],
     })
 
     function onRouteChangeComplete() {

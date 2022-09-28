@@ -25,12 +25,6 @@ const config = {
         destination: '/examples/:path*',
         permanent: true,
       },
-      {
-        source: '/gitcoin',
-        destination:
-          'https://gitcoin.co/grants/4493/wagmi-react-hooks-library-for-ethereum',
-        permanent: false,
-      },
     ]
   },
   typescript: {

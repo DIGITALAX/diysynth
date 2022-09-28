@@ -50,11 +50,12 @@ export default {
         <meta name="description" content={description} />
         <meta name="og:description" content={description} />
         <meta name="og:title" content={title_} />
-        <meta name="og:image" content="https://diysynth.xyz/card.png" />
+        <meta name="og:url" content="https://diysynth.xyz/" />
+        <meta name="og:image" content="https://diysynth.xyz/card.png/" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:site" content="@digitalax_"/>
+        <meta name="twitter:site" content="@digitalax_"/>
         <meta name="twitter:creator" content="@digitalax_" />
-        <meta name="twitter:image" content="https://diysynth.xyz/card.png" />
+        <meta name="twitter:image" content="https://diysynth.xyz/card.png/" />
         <meta name="twitter:url" content="https://diysynth.xyz/" />
 
 

@@ -50,7 +50,7 @@ export default {
         <meta name="description" content={description} />
         <meta name="og:description" content={description} />
         <meta name="og:title" content={title_} />
-        <meta name="og:image" content="https://wagmi.sh/og.png" />
+        {/* <meta name="og:image" content="https://wagmi.sh/og.png" /> */}
         <meta name="twitter:card" content="summary_large_image" />
 
         {/* Misc */}

@@ -52,6 +52,7 @@ export default {
         <meta name="og:title" content={title_} />
         <meta name="og:image" content="https://diysynth.xyz/card.png" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="https://diysynth.xyz/" />
         <meta name="twitter:image" content="https://diysynth.xyz/card.png" />
 
 

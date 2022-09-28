@@ -1,7 +1,7 @@
 @tailwind utilities;
 
 html {
-  font-feature-settings: 'rlig' 1, 'calt' 1, 'ss01' 1, 'ss06' 1 !important;
+  font-feature-settings: "rlig" 1, "calt" 1, "ss01" 1, "ss06" 1 !important;
 }
 
 [data-reach-skip-link] {
@@ -17,22 +17,44 @@ html {
 }
 
 .dark body {
-  background-color: #111313
+  background-color: #111313;
+}
+
+.dark div {
+  color: #f7f8e8;
+}
+
+.dark h1 {
+  color: #f7f8e8;
+}
+
+.light h1 {
+  color: #111313;
+}
+
+.light div {
+  color: #111313;
+}
+
+.light body {
+  color: #111313;
 }
 
 .nextra-callout a {
   color: inherit;
 }
 
-.dark  .nextra-container {
-  background-color: #111313
+.dark .nextra-container {
+  background-color: #111313;
 }
 
-.light  .nextra-container {
-  background-color: #F7F8E8;
+.light .nextra-container {
+  background-color: #f7f8e8;
 }
 
-
+.light {
+  color: #111313;
+}
 
 sup a {
   @apply text-current;
@@ -43,8 +65,6 @@ sup a {
   @apply text-sm;
 }
 
-.install [role='tablist'] {
+.install [role="tablist"] {
   justify-content: center;
 }
-
-

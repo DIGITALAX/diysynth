@@ -52,7 +52,7 @@ export default {
         <meta name="og:title" content={title_} />
         <meta name="og:image" content="https://github.com/DIGITALAX/diysynth/blob/main/public/card.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:image" content="https://diysynth.xyz/card.png">
+        <meta name="twitter:image" content="https://diysynth.xyz/card.png">
 
 
         {/* Misc */}

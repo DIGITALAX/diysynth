@@ -53,7 +53,7 @@ export default {
         <meta name="og:image" content="https://diysynth.xyz/card.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@digitalax_"/>
-        <meta name="twitter:creator" content="@digitalax_">
+        <meta name="twitter:creator" content="@digitalax_" />
         <meta name="twitter:image" content="https://diysynth.xyz/card.png" />
 
 
